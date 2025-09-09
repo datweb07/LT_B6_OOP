@@ -34,6 +34,7 @@ namespace CS
             }
             catch (UndefinedOrientationException)
             {
+                // throw;
                 return "Không thể biểu diễn vector 0";
             }
         }
@@ -62,6 +63,7 @@ namespace CS
             }
             catch (UndefinedOrientationException)
             {
+                // throw;
                 return 0;
             }
         }
